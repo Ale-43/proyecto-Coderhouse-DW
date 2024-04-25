@@ -10,6 +10,15 @@ html, body {
 
 nav {
     background-color: #2764ab;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.tituloprincipal {
+    background-color: #2764ab;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .nav-link {
@@ -20,10 +29,6 @@ nav a {
     text-decoration: none;
     list-style: none;
     color: #fff;
-}
-.barranavegacion-elementos {
-    margin-left: 440px;
-    margin-top: 60px;
 }
 
 nav a:hover {
@@ -52,7 +57,6 @@ nav li {
 }
 
 .secciondos img {
-    margin-left: 20px;
     display: inline;
     box-shadow: 5px 5px 5px #000;
 }
@@ -224,244 +228,3 @@ nav li {
 .secondtitle {
     background: #5c91b7;
 }
-.video {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    background: #949494;
-    margin-left: 50px;
-    margin-top: 200px;
-}
-.video3 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 200px;
-    background: #949494;
-}
-.video4 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 100px;
-    background: #949494;
-}
-.video5 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 100px;
-    background: #949494;
-}
-.video6 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 100px;
-    background: #949494;
-}
-
-
-/*los dos ultimos videos posicionamientos*/
-
-.video7 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 100px;
-    background: #949494;
-    margin-bottom: 80px;
-}
-.video8 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 100px;
-    background: #949494;
-    margin-bottom: 80px;
-}
-.botonvermas {
-    font-family: "Yeseva One", serif;
-    display: flex;
-    justify-content: center;
-    background-color: #d9d9d9;
-    color: #00057a;
-    width: 220px;
-    height: 75px;
-    border-radius: 100px;
-    margin-left: 520px;
-    margin-bottom: 96px;
-    transition: 0.5s;
-}
-.botonvermas a {
-    margin-top: 20px;
-    list-style: none;
-    text-decoration: none;
-    font-size: larger;
-}
-.botonvermas:hover {
-    background-color: #00057a;
-    color: white;
-}
-.eventos-title {
-    font-family: "Yeseva One", serif;
-}
-.tercertitulo {
-    font-family: "Yeseva One", serif;
-    margin-left: 100px;
-    margin-top: 130px;
-}
-.video01 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 70px;
-    background: #949494;
-}
-.video02 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 70px;
-    background: #949494;
-}
-.video03 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 70px;
-    background: #949494;
-    margin-bottom: 130px;
-}
-.video04 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 70px;
-    background: #949494;
-    margin-bottom: 130px;
-}
-.prox-eventos1 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 70px;
-    background: #949494;
-    margin-bottom: 130px;
-}
-.prox-eventos2 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: 70px;
-    background: #949494;
-    margin-bottom: 130px; 
-}
-.fotos1 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    background: #949494;
-    margin-top: 20px;
-}
-.fotos2 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    background: #949494;
-    margin-top: 20px;
-}
-.fotos3 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    background: #949494;
-    margin-top: 100px;
-}
-.fotos4 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    background: #949494;
-    margin-top: 100px;
-}
-.fotos5 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    background: #949494;
-    margin-top: 100px;
-}
-.fotos6 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    background: #949494;
-    margin-top: 100px;
-}
-.fot-ent1 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    background: #949494;
-    margin-top: 100px;
-}
-.fot-ent2 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    background: #949494;
-    margin-top: 100px;
-}
-.fot-ent3 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 50px;
-    background: #949494;
-    margin-top: 100px;
-    margin-bottom: 130px;
-}
-.fot-ent4 {
-    display: inline-block;
-    height: 200px;
-    width: 500px;
-    margin-left: 100px;
-    background: #949494;
-    margin-top: 100px;
-    margin-bottom: 130px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
