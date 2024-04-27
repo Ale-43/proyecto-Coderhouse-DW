@@ -10,6 +10,8 @@ html, body {
 
 nav {
     background-color: #2764ab;
+    display: flex;
+    justify-content: flex-end;
 }
 .tituloprincipal {
     background-color: #2764ab;
