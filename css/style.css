@@ -10,15 +10,9 @@ html, body {
 
 nav {
     background-color: #2764ab;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: flex-end;
 }
 .tituloprincipal {
     background-color: #2764ab;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .nav-link {
@@ -151,7 +145,7 @@ nav li {
 .redessociales {
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    align-content: space-around;
 }
 
 .formulario {
