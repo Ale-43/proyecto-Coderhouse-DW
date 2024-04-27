@@ -21,61 +21,100 @@
 </head>
 <body>
     <header>
-        <section>
-            <nav class="navbar navbar-expand-lg"> <!--creo el repositorio de git en la direccion donde esta mi index--> <!--esto es un comentario para mi!-->
-                <section class="tituloprincipal">
-                    <h1>Grupo a-ha</h1>
-                </section>
-                <div class="barranavegacion-elementos">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li>
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="./pages/discografia.html">Discografia</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="./pages/eventos.html">Eventos</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="./pages/contacto.html">Contactos</a>
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <h1 class="tituloprincipal">GRUPO A-HA</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/discografia.html">Discografia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="./pages/eventos.html">Eventos</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="./pages/contacto.html">Contactos</a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
           </nav>
-        </section>
+          
     </header>
-    <section class="secciondos">
-        <img src="./pages/foto_1.jpeg" alt="foto de el grupo" width="700px" height="500px">
-        <h2>Grupo a-ha</h2>
-        <p>el grupo musical noruego a-ha fue formado<br>
-            en oslo, capital noruega en el año 1982.<br>
-            el grupo se hizo muy famoso tras su primer<br>
-            lanzamiento musical “take on me”, el cual,<br>
-            alcanzo un gran exito internacionalmente.<br>
-            
-            su album debut “hunting high and low” en <br>
-            1985 y demas exitos como “the sun always <br>
-            shines on tv” habian consolidado a “a-ha”<br>
-            como una de las bandas de pop mas exito-<br>
-            sas de la los 80s.</p>
-    </section>
 
-    <section class="seccionmiembros">
-        <h1>Sus miembros</h1>
-    </section>
-    <section class="seccionmiembros1">
-        <section>
-            <h2>Morten Harket</h2>
-            <p>Morten Harket: Nacido el 14 de septiembre de 1959 en Kongsberg, Noruega, Morten Harket es el vocalista principal de A-ha. Antes de unirse al grupo, Harket había estudiado música y había trabajado como maestro de escuela. Su voz distintiva y su presencia escénica contribuyeron en gran medida al éxito de A-ha. Además de su trabajo con la banda, Harket también ha lanzado varios álbumes en solitario  y ha participado en proyectos musicales fuera de A-ha.</p>
-        </section>
+<!--secciondos con bootstrap-->
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h2>Grupo A-ha</h2>
+        <p>el grupo musical noruego a-ha fue formado<br>
+          en oslo, capital noruega en el año 1982.<br>
+          el grupo se hizo muy famoso tras su primer<br>
+          lanzamiento musical “take on me”, el cual,<br>
+          alcanzo un gran exito internacionalmente.<br>
+          
+          su album debut “hunting high and low” en <br>
+          1985 y demas exitos como “the sun always <br>
+          shines on tv” habian consolidado a “a-ha”<br>
+          como una de las bandas de pop mas exito-<br>
+          sas de la los 80s.</p>
+      </div>
+      <div class="col">
+        <img src="./pages/foto_1.jpeg" alt="foto de el grupo" width="500px" height="300px">
+      </div>
+    </div>
+  </div>
+
+
+<!--codigo limpio para poner columnas con bootstrap(grid system)-->
+<div class="container text-center">
+    <div class="row">
+            <div class="col">
+                <h1>Sus miembros</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--seccion miembros con bootstrap-->
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h2>morten_harket</h2>
+        <p>Morten Harket: Nacido el 14 de septiembre de 1959 en Kongsberg, Noruega, Morten Harket es el vocalista principal de A-ha. Antes de unirse al grupo, Harket había estudiado música y había trabajado como maestro de escuela. Su voz distintiva y su presencia escénica contribuyeron en gran medida al éxito de A-ha. Además de su trabajo con la banda, Harket también ha lanzado varios álbumes en solitario  y ha participado en proyectos musicales fuera de A-ha.</p>
+      </div>
+      <div class="col">
         <img src="./pages/morten_harket.jpeg" alt="morten_harket" height="500px" width="400px">
-    </section>
-</section>
-<section class="seccionmiembros1">
+      </div>
+    </div>
+  </div>
+
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h2>Morten Harket</h2>
+      </div>
+      <div class="col">
+        <p>Morten Harket: Nacido el 14 de septiembre de 1959 en Kongsberg, Noruega, Morten Harket es el vocalista principal de A-ha. Antes de unirse al grupo, Harket había estudiado música y había trabajado como maestro de escuela. Su voz distintiva y su presencia escénica contribuyeron en gran medida al éxito de A-ha. Además de su trabajo con la banda, Harket también ha lanzado varios álbumes en solitario  y ha participado en proyectos musicales fuera de A-ha.</p>
+      </div>
+      <div class="col">
+        <img src="./pages/morten_harket.jpeg" alt="morten_harket" height="500px" width="400px">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--magne furoholmen-->
     <section>
         <h2>Magne Furoholmen</h2>
         <p>Magne Furuholmen: Nacido el 1 de noviembre de 1962 en Oslo, Noruega, Magne Furuholmen es el tecladista, guitarrista y corista de A-ha. Antes de unirse a la banda, Furuholmen estudió en la Academia Nacional de Arte de Oslo. Además de su trabajo con A-ha, Furuholmen es un artista visual consumado y ha exhibido su arte en numerosas galerías de todo el mundo. También ha lanzado música en solitario y ha trabajado en proyectos de colaboración con otros músicos.</p>

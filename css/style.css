@@ -7,14 +7,14 @@ html, body {
 * {
     color: white;
 }
-
-nav {
-    background-color: #2764ab;
+header div {
+    background: #2764ab;
     display: flex;
     justify-content: flex-end;
 }
 .tituloprincipal {
     background-color: #2764ab;
+    font-family: "Yeseva One", serif;
 }
 
 .nav-link {
@@ -43,59 +43,12 @@ nav li {
     margin-left: 20px;
     width: 200px;
 }
-
-.secciondos {
-    top: 50px;
-    background: #5c91b7;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-.secciondos img {
-    display: inline;
-    box-shadow: 5px 5px 5px #000;
-}
-
-.secciondos h2 {
-    background: #5c91b7;
-    margin-top: 50px;
-    margin-left: -450px;
-    overflow: hidden;
-    max-height: 100px;
-    font-family: "Yeseva One", serif;
-}
-.secciondos p {
-    background: #5c91b7;
-    margin-top: 150px;
-    margin-left: 55px;
+.col {
     font-family: "Yeseva One", serif;
 }
 
 
-.seccionmiembros {
-    margin-top: 190px;
-    margin-left: 516px;
-    font-family: "Yeseva One", serif;
-}
-.seccionmiembros1 {
-    display: flex;
-    justify-content: space-between;
-    font-family: "Yeseva One", serif;
-}
-.seccionmiembros1 img {
-    margin-top: 170px;
-    margin-right: 150px;
-}
-.seccionmiembros1 h2 {
-    margin-top: 183px;
-    margin-left: 216px;
-}
-.seccionmiembros1 p {
-    margin-top: 37px;
-    margin-left: 140px;
-    margin-right: 80px;
-}
+
 
 
 .seccionmiembros2 {
