@@ -7,49 +7,35 @@ html, body {
 * {
     color: white;
 }
+
 header div {
-    background: #2764ab;
-    display: flex;
-    justify-content: flex-end;
-}
-.tituloprincipal {
     background-color: #2764ab;
-    font-family: "Yeseva One", serif;
 }
 
-.nav-link {
-    color: #fff;
-}
 
-nav a {
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
-}
 
-nav a:hover {
-    color: #00057a;
-}
 
-nav li {
-    background-color: #2764ab;
-    margin-top: 10px;
-    margin-inline-start: 30px;
-    font-family: "Artifika", serif;
-    color: white;
-}
-.title {
-    font-family: "Yeseva One", serif;
-    margin-left: 20px;
-    width: 200px;
-}
+
+
+
+
 .col {
     font-family: "Yeseva One", serif;
 }
+.col-6 {
+    font-family: "Yeseva One", serif;
+}
 
-
-
-
+.position1 {
+    display: flex;
+}
+.position2 {
+    padding-top: 190px;
+    padding-bottom: 170px;
+}
+.position3 {
+    display: flex;
+}
 
 .seccionmiembros2 {
     display: flex;
