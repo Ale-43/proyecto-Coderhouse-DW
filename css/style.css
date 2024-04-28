@@ -20,6 +20,9 @@ nav li {
     padding-left: 100px;
     font-family: "Artifika", serif;
 }
+.nav-link {
+    color: #fff;
+}
 nav a {
     text-decoration: none;
     list-style: none;
@@ -43,6 +46,9 @@ nav a {
     font-family: "Yeseva One", serif;
 }
 .col-6 {
+    font-family: "Yeseva One", serif;
+}
+.col-lg {
     font-family: "Yeseva One", serif;
 }
 
