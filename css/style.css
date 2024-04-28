@@ -11,8 +11,28 @@ html, body {
 header div {
     background-color: #2764ab;
 }
-
-
+nav {
+    background-color: #2764ab;
+}
+nav li {
+    background-color: #2764ab;
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: "Artifika", serif;
+}
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+  
+  nav a:hover {
+    color: #00057a;
+}
+.tituloprincipal {
+    font-family: "Yeseva One", serif;
+    margin-left: 20px;
+}
 
 
 
