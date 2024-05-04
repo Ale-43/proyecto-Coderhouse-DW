@@ -1,0 +1,58 @@
+.form2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 139px;
+    margin-top: 120px;
+}
+.form3 {
+    margin-right: 103px;
+}
+.form3 h2 {
+    font-family: "Yeseva One", serif;
+}
+.form {
+    font-family: "Yeseva One", serif;
+    display: flex;
+    flex-direction: column;
+}
+.form45 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+}
+.form45 label {
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    font-family: "Yeseva One", serif;
+}
+.form45 input {
+    height: 170px;
+    width: 300px;
+    border-radius: 50px;
+}
+.form label {
+    border-radius: 50px;
+    height: 40px;
+    width: 300px;
+}
+.form input {
+    border-radius: 50px;
+    height: 30px;
+    width: 300px;
+}
+.botonenvio {
+    font-family: "Yeseva One", serif;
+    margin-left: 230px;
+    background: #00057a;
+    height: 35px;
+    width: 100px;
+    border-radius: 100px;
+}
+.botonenvio a {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
