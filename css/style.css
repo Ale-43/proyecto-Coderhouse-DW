@@ -32,6 +32,36 @@
   color: #00057a;
 }
 
+header div {
+  background-color: #2764ab;
+}
+
+nav {
+  background-color: #2764ab;
+}
+nav li {
+  background-color: #2764ab;
+  padding-top: 40px;
+  padding-left: 100px;
+  font-family: "Artifika", serif;
+}
+nav .nav-link {
+  color: #fff;
+}
+nav a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+nav a:hover {
+  color: #00057a;
+}
+
+.tituloprincipal {
+  font-family: "Yeseva One", serif;
+  padding-left: 20px;
+}
+
 .form2 {
   display: flex;
   justify-content: flex-end;
@@ -94,48 +124,37 @@
   margin-left: 100px;
   background: #5c91b7;
 }
-
-.secondtitle {
+.subtitulo .secondtitle {
   background: #5c91b7;
+}
+
+.botonvermas {
+  display: flex;
+  justify-content: center;
+}
+.botonvermas .boton {
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  width: 90px;
+  height: 40px;
+  border-radius: 40px;
+}
+.botonvermas .boton a {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 30px;
+  color: #989898;
+  font-family: "Yeseva One", serif;
+}
+.botonvermas .boton:hover {
+  background-color: blue;
+  color: #fff;
 }
 
 html, body {
   background-color: #5c91b7;
   color: #fff;
-}
-
-header div {
-  background-color: #2764ab;
-}
-
-nav {
-  background-color: #2764ab;
-}
-
-nav li {
-  background-color: #2764ab;
-  padding-top: 40px;
-  padding-left: 100px;
-  font-family: "Artifika", serif;
-}
-
-.nav-link {
-  color: #fff;
-}
-
-nav a {
-  text-decoration: none;
-  list-style: none;
-  color: #fff;
-}
-
-nav a:hover {
-  color: #00057a;
-}
-
-.tituloprincipal {
-  font-family: "Yeseva One", serif;
-  padding-left: 20px;
 }
 
 .col {

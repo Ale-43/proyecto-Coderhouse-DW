@@ -1,0 +1,29 @@
+header {
+    div {
+        background-color: #2764ab;
+    }
+}
+nav {
+    background-color: #2764ab;
+    li {
+        background-color: #2764ab;
+        padding-top: 40px;
+        padding-left: 100px;
+        font-family: "Artifika", serif;
+    }
+    .nav-link {
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        &:hover {
+            color: #00057a;
+        }
+    }
+}
+.tituloprincipal {
+    font-family: "Yeseva One", serif;
+    padding-left: 20px;
+}
