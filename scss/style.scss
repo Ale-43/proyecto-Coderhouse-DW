@@ -1,2 +1,14 @@
 //archivos de base
-@import 'base/reset'
+@import "base/vars";
+@import "base/reset";
+
+//archivos de components
+@import "components/footer";
+@import "components/navbar";
+
+//archivos de layouts
+@import "layouts/contacto";
+@import "layouts/discografia";
+@import "layouts/eventos";
+@import "layouts/galeria";
+@import "layouts/index";

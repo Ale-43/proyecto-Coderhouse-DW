@@ -1,4 +1,8 @@
 
+html,body {
+    background-color: #5c91b7;
+    color: #fff;
+}
 header div {
     background-color: #2764ab;
 }
@@ -38,15 +42,9 @@ nav a {
 }
 .position5 {
     padding-top: 150px;
+    padding-bottom: 60px;
 }
 .position2 {
     padding-top: 190px;
     padding-bottom: 170px;
-}
-.secredes {
-    display: flex;
-
-    div  {
-        padding-left: 10px;
-    }
 }

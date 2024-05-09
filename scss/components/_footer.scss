@@ -1,0 +1,28 @@
+.row-20 {
+    display: flex;
+    justify-content: space-between;
+    background: $color-de-fondo-footer;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .col-20 {
+        padding-left: 10px;
+        font-family: "Yeseva One", serif;
+    }
+    .volver-al-pie {
+        font-family: "Yeseva One", serif;
+        color: #fff;
+        list-style-type: none;
+        text-decoration: none;
+        &:hover {
+            color: #00057a;
+        }
+    }
+    .redes-sociales {
+        color: #fff;
+        &:hover {
+            color: #00057a;
+        }
+    }
+
+}
