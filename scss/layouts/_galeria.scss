@@ -1,0 +1,17 @@
+.numerotresti {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.galeria-del-grupo {
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    .video-2 {
+        padding-left: 21px;
+    }
+    h5 {
+        padding-top: 15px;
+    }
+}

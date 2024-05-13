@@ -152,6 +152,25 @@ nav a:hover {
   color: #fff;
 }
 
+.numerotresti {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.galeria-del-grupo {
+  padding-left: 100px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: 1s;
+}
+.galeria-del-grupo .video-2 {
+  padding-left: 21px;
+}
+.galeria-del-grupo h5 {
+  padding-top: 15px;
+}
+
 html, body {
   background-color: #5c91b7;
   color: #fff;
