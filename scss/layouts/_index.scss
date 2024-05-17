@@ -20,3 +20,18 @@ html,body {
     padding-top: 190px;
     padding-bottom: 170px;
 }
+
+$variable: invierno;
+
+@for $variable from 1 through 10 {
+    .p-#{$variable} {
+        padding: $variable * 10px;
+    }
+    .m-#{$variable} {
+        margin: $variable * 10px;
+    }
+    .display-#{$variable} {
+        font-size: 60px / $variable;
+    }
+}
+
