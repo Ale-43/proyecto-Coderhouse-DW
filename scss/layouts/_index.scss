@@ -3,9 +3,6 @@ html,body {
     background-color: #5c91b7;
     color: #fff;
 }
-.col {
-    font-family: "Yeseva One", serif;
-}
 .position3 {
     display: flex;
 }
@@ -21,17 +18,8 @@ html,body {
     padding-bottom: 170px;
 }
 
-$variable: invierno;
 
-@for $variable from 1 through 10 {
-    .p-#{$variable} {
-        padding: $variable * 10px;
-    }
-    .m-#{$variable} {
-        margin: $variable * 10px;
-    }
-    .display-#{$variable} {
-        font-size: 60px / $variable;
-    }
-}
+
+
+
 
