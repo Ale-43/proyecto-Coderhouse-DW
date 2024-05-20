@@ -39,6 +39,22 @@
     padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 583px) {
+        overflow: hidden;
+        width: 450px;
+    }
+    @media (max-width: 461px) {
+        overflow: hidden;
+        width: 400px;
+    }
+    @media (max-width: 400px) {
+        overflow: hidden;
+        width: 350px;
+    }
+    @media (max-width: 352px) {
+        overflow: hidden;
+        width: 300px;
+    }
     .disco-2 {
         padding-left: 21px;
     }
