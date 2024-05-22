@@ -1,36 +1,52 @@
-.numerotresti {
-    padding-left: 100px;
-    padding-top: 100px;
-}
-.galeria-del-grupo {
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    transition: 1s;
-    .video-2 {
-        padding-left: 21px;
-        @media (max-width: 650px) {
-            display: flex;
-            justify-content: center;
-            padding-right: 100px;
+.subtitulo {
+    div {
+        h3 {
+            font-family: "Yeseva One", serif;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            @media (max-width: 600px) {
+                display: flex;
+                justify-content: flex-start;
+            }
         }
-    }
-    .video-3 {
-        padding-left: 21px;
-        @media (max-width: 650px) {
-            display: flex;
-            justify-content: center;
-            padding-right: 100px;
+        h5 {
+            font-family: "Yeseva One", serif;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            @media (max-width: 600px) {
+                display: flex;
+                justify-content: flex-start;
+            }
         }
-    }
-    h5 {
-        padding-top: 25px;
-        padding-bottom: 25px;
     }
 }
 
+.container-xxl {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h5 {
+        font-family: "Yeseva One", serif;
+        padding-bottom: 30px;
+    }
+    iframe {
+        @media (max-width: 555px) {
+            display: flex;
+            justify-content: center;
+            width: 400px;
+        }
+        @media (max-width: 412px) {
+            display: flex;
+            justify-content: center;
+            width: 250px;
+        }
+    }
+
+
+
+    
+}
 .botonvermas {
     display: flex;
     justify-content: center;
@@ -48,8 +64,7 @@
         a {
             text-decoration: none;
             list-style: none;
-            padding-left: 3px;
-            padding-top: 30px;
+            padding-left: 9px;
             color: #989898;
             font-family: "Yeseva One", serif;
         }
@@ -59,5 +74,7 @@
         }
     }
 }
+
+
 
 

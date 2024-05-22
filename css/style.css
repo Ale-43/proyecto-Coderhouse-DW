@@ -170,24 +170,31 @@ nav a:hover {
 }
 @media (max-width: 583px) {
   .container-xl {
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
     width: 450px;
   }
 }
 @media (max-width: 461px) {
   .container-xl {
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     width: 400px;
   }
 }
 @media (max-width: 400px) {
   .container-xl {
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     width: 350px;
   }
 }
 @media (max-width: 352px) {
   .container-xl {
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     width: 300px;
   }
@@ -196,42 +203,52 @@ nav a:hover {
   padding-left: 21px;
 }
 
-.numerotresti {
-  padding-left: 100px;
-  padding-top: 100px;
+.subtitulo div h3 {
+  font-family: "Yeseva One", serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 600px) {
+  .subtitulo div h3 {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+.subtitulo div h5 {
+  font-family: "Yeseva One", serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 600px) {
+  .subtitulo div h5 {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
-.galeria-del-grupo {
-  padding-left: 100px;
-  padding-top: 20px;
-  padding-bottom: 30px;
+.container-xxl {
   display: flex;
-  justify-content: space-between;
-  transition: 1s;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.galeria-del-grupo .video-2 {
-  padding-left: 21px;
+.container-xxl h5 {
+  font-family: "Yeseva One", serif;
+  padding-bottom: 30px;
 }
-@media (max-width: 650px) {
-  .galeria-del-grupo .video-2 {
+@media (max-width: 555px) {
+  .container-xxl iframe {
     display: flex;
     justify-content: center;
-    padding-right: 100px;
+    width: 400px;
   }
 }
-.galeria-del-grupo .video-3 {
-  padding-left: 21px;
-}
-@media (max-width: 650px) {
-  .galeria-del-grupo .video-3 {
+@media (max-width: 412px) {
+  .container-xxl iframe {
     display: flex;
     justify-content: center;
-    padding-right: 100px;
+    width: 250px;
   }
-}
-.galeria-del-grupo h5 {
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .botonvermas {
@@ -255,8 +272,7 @@ nav a:hover {
 .botonvermas .boton a {
   text-decoration: none;
   list-style: none;
-  padding-left: 3px;
-  padding-top: 30px;
+  padding-left: 9px;
   color: #989898;
   font-family: "Yeseva One", serif;
 }

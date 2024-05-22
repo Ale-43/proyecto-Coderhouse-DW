@@ -40,18 +40,25 @@
     display: flex;
     justify-content: space-between;
     @media (max-width: 583px) {
-        overflow: hidden;
+        display: flex;
+        justify-content: center;
         width: 450px;
     }
     @media (max-width: 461px) {
+        display: flex;
+        justify-content: center;
         overflow: hidden;
         width: 400px;
     }
     @media (max-width: 400px) {
+        display: flex;
+        justify-content: center;
         overflow: hidden;
         width: 350px;
     }
     @media (max-width: 352px) {
+        display: flex;
+        justify-content: center;
         overflow: hidden;
         width: 300px;
     }
