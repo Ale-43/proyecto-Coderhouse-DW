@@ -1,0 +1,60 @@
+.titulo-even {
+    display: flex;
+    justify-content: center;
+    font-family: "Yeseva One", serif;
+    padding-top: 80px;
+}
+
+
+
+.eventos {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    iframe {
+        @media (max-width: 1005px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 300px;
+        }
+        @media (max-width: 330px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 170px;
+            height: 200px;
+        }
+    }
+}
+.eventos-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    iframe {
+        @media (max-width: 1005px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 300px;
+        }
+        @media (max-width: 330px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 170px;
+            height: 200px;
+        }
+    }
+}
