@@ -8,6 +8,16 @@
                 display: flex;
                 justify-content: flex-start;
             }
+            @media (max-width: 350px) {
+                display: flex;
+                justify-content: center;
+                width: 175px;
+            }
+            @media (max-width: 320px) {
+                display: flex;
+                justify-content: center;
+                width: 165px;
+            }
         }
         h5 {
             font-family: "Yeseva One", serif;
@@ -16,6 +26,16 @@
             @media (max-width: 600px) {
                 display: flex;
                 justify-content: flex-start;
+            }
+            @media (max-width: 350px) {
+                display: flex;
+                justify-content: center;
+                width: 175px;
+            }
+            @media (max-width: 320px) {
+                display: flex;
+                justify-content: center;
+                width: 165px;
             }
         }
     }

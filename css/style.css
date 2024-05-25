@@ -289,6 +289,20 @@ nav a:hover {
     justify-content: flex-start;
   }
 }
+@media (max-width: 350px) {
+  .subtitulo div h3 {
+    display: flex;
+    justify-content: center;
+    width: 175px;
+  }
+}
+@media (max-width: 320px) {
+  .subtitulo div h3 {
+    display: flex;
+    justify-content: center;
+    width: 165px;
+  }
+}
 .subtitulo div h5 {
   font-family: "Yeseva One", serif;
   padding-top: 30px;
@@ -298,6 +312,20 @@ nav a:hover {
   .subtitulo div h5 {
     display: flex;
     justify-content: flex-start;
+  }
+}
+@media (max-width: 350px) {
+  .subtitulo div h5 {
+    display: flex;
+    justify-content: center;
+    width: 175px;
+  }
+}
+@media (max-width: 320px) {
+  .subtitulo div h5 {
+    display: flex;
+    justify-content: center;
+    width: 165px;
   }
 }
 
@@ -359,17 +387,6 @@ nav a:hover {
 html, body {
   background-color: #5c91b7;
   color: #fff;
-}
-
-col img {
-  width: 500px;
-  height: 400px;
-}
-@media (max-width: 500px) {
-  col img {
-    width: 300px;
-    height: 400px;
-  }
 }
 
 .col-lg {
