@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-.row-20 {
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .row-20 {
   display: flex;
   justify-content: space-between;
   background: #0264f6;
@@ -13,30 +17,30 @@
   padding-right: 10px;
 }
 @media (max-width: 720px) {
-  .row-20 {
+  footer .row-20 {
     display: flex;
     text-align: center;
     flex-direction: column;
     padding: 15px;
   }
 }
-.row-20 .col-20 {
+footer .row-20 .col-20 {
   padding-left: 10px;
   font-family: "Yeseva One", serif;
 }
-.row-20 .volver-al-pie {
+footer .row-20 .volver-al-pie {
   font-family: "Yeseva One", serif;
   color: #fff;
   list-style-type: none;
   text-decoration: none;
 }
-.row-20 .volver-al-pie:hover {
+footer .row-20 .volver-al-pie:hover {
   color: #00057a;
 }
-.row-20 .redes-sociales {
+footer .row-20 .redes-sociales {
   color: #fff;
 }
-.row-20 .redes-sociales:hover {
+footer .row-20 .redes-sociales:hover {
   color: #00057a;
 }
 
@@ -83,6 +87,11 @@ nav a:hover {
     display: flex;
     justify-content: flex-start;
     padding-left: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .form2 {
+    height: 950px;
   }
 }
 .form2 .nombre-1 {
@@ -397,19 +406,48 @@ html, body {
   display: flex;
   justify-content: center;
   padding-bottom: 150px;
+  padding-top: 50px;
 }
 .container .position3 .col-1 {
   width: 300px;
   height: 400px;
 }
-.container .position .col-2 {
-  display: flex;
-  justify-content: center;
-  padding-right: 100px;
+@media (max-width: 340px) {
+  .container .position3 .col-1 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+  }
 }
-.container .position .col-2 .col-1 {
+.container .position3 .col-2 {
   width: 300px;
   height: 400px;
+  padding-bottom: 100px;
+}
+@media (max-width: 340px) {
+  .container .position3 .col-2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+  }
+}
+.container .position3 .col-2 .imagen-principal {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 340px) {
+  .container .position3 .col-2 .imagen-principal .col-image img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+  }
+}
+.container .position2 {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
