@@ -91,7 +91,7 @@ nav a:hover {
 }
 @media (max-width: 1024px) {
   .form2 {
-    height: 950px;
+    height: 450px;
   }
 }
 .form2 .nombre-1 {
@@ -128,17 +128,83 @@ nav a:hover {
   background-color: rgb(197, 197, 255);
   width: 78px;
   border-radius: 30px;
-  transition: 1s;
+  transition: 1.5s;
 }
 .form2 .boton-4:hover {
   background-color: #00057a;
   color: #004d6d;
+  padding: 20px;
+  width: 150px;
 }
 .form2 .boton-4 a {
   text-decoration: none;
   list-style: none;
   color: #777777;
   padding-left: 6px;
+}
+
+.titulo-46 {
+  display: flex;
+  justify-content: center;
+}
+.titulo-46 .titulo-imagen-46 {
+  padding-bottom: 80px;
+}
+.titulo-46 .titulo-imagen-46 h3 {
+  transition: 2s;
+  font-family: "Yeseva One", serif;
+  color: #00057a;
+}
+.titulo-46 .titulo-imagen-46 h3:hover {
+  padding: 20px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  padding-bottom: 200px;
+}
+.foto img {
+  width: 600px;
+  height: 350px;
+  transition: 2s;
+}
+.foto img:hover {
+  padding: 20px;
+}
+@media (max-width: 610px) {
+  .foto img {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 280px;
+  }
+}
+@media (max-width: 450px) {
+  .foto img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.gracias {
+  display: flex;
+  justify-content: center;
+}
+.gracias .gracias-2 {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+.gracias .gracias-2 h3 {
+  transition: 2s;
+  font-family: "Yeseva One", serif;
+  color: #00057a;
+}
+.gracias .gracias-2 h3:hover {
+  padding: 20px;
 }
 
 .subtitulo {
