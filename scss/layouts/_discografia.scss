@@ -1,11 +1,11 @@
 .subtitulo {
     font-family: "Yeseva One", serif;
-    color: #fff;
+    color: $color-blanco;
     margin-top: 100px;
     margin-left: 100px;
-    background: #5c91b7;
+    background: $color-de-fondo;
     .secondtitle {
-        background: #5c91b7;
+        background: $color-de-fondo;
     }
 }
 .botonvermas {
@@ -14,7 +14,7 @@
     padding-bottom: 96px;
     .boton {
         background-color: rgb(255, 255, 255);
-        transition: 1s;
+        transition: 1.5s;
         width: 90px;
         height: 40px;
         border-radius: 40px;
@@ -27,8 +27,8 @@
             font-family: "Yeseva One", serif;
         }
         &:hover {
-            background-color: blue;
-            color: #fff;
+            background-color: $color-blue;
+            color: $color-blanco;
         }
     }
 }

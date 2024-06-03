@@ -1,25 +1,25 @@
 header {
     div {
-        background-color: #2764ab;
+        background-color: $color-de-fondo-nav;
     }
 }
 nav {
-    background-color: #2764ab;
+    background-color: $color-de-fondo-nav;
     li {
-        background-color: #2764ab;
+        background-color: $color-de-fondo-nav;
         padding-top: 40px;
         padding-left: 100px;
         font-family: "Artifika", serif;
     }
     .nav-link {
-        color: #fff;
+        color: $color-blanco;
     }
     a {
         text-decoration: none;
         list-style: none;
-        color: #fff;
+        color: $color-blanco;
         &:hover {
-            color: #00057a;
+            color: $color-blue;
         }
     }
 }

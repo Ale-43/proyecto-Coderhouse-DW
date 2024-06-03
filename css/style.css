@@ -11,7 +11,7 @@ footer {
 footer .row-20 {
   display: flex;
   justify-content: space-between;
-  background: #0264f6;
+  background: #006a72;
   padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
@@ -30,7 +30,7 @@ footer .row-20 .col-20 {
 }
 footer .row-20 .volver-al-pie {
   font-family: "Yeseva One", serif;
-  color: #fff;
+  color: #b3f5ff;
   list-style-type: none;
   text-decoration: none;
 }
@@ -38,7 +38,7 @@ footer .row-20 .volver-al-pie:hover {
   color: #00057a;
 }
 footer .row-20 .redes-sociales {
-  color: #fff;
+  color: #b3f5ff;
 }
 footer .row-20 .redes-sociales:hover {
   color: #00057a;
@@ -58,12 +58,12 @@ nav li {
   font-family: "Artifika", serif;
 }
 nav .nav-link {
-  color: #fff;
+  color: #b3f5ff;
 }
 nav a {
   text-decoration: none;
   list-style: none;
-  color: #fff;
+  color: #b3f5ff;
 }
 nav a:hover {
   color: #00057a;
@@ -209,7 +209,7 @@ nav a:hover {
 
 .subtitulo {
   font-family: "Yeseva One", serif;
-  color: #fff;
+  color: #b3f5ff;
   margin-top: 100px;
   margin-left: 100px;
   background: #5c91b7;
@@ -225,7 +225,7 @@ nav a:hover {
 }
 .botonvermas .boton {
   background-color: rgb(255, 255, 255);
-  transition: 1s;
+  transition: 1.5s;
   width: 90px;
   height: 40px;
   border-radius: 40px;
@@ -239,8 +239,8 @@ nav a:hover {
   font-family: "Yeseva One", serif;
 }
 .botonvermas .boton:hover {
-  background-color: blue;
-  color: #fff;
+  background-color: #00057a;
+  color: #b3f5ff;
 }
 
 .container-xl {
@@ -455,13 +455,13 @@ nav a:hover {
   font-family: "Yeseva One", serif;
 }
 .botonvermas .boton:hover {
-  background-color: blue;
-  color: #fff;
+  background-color: #00057a;
+  color: #b3f5ff;
 }
 
 html, body {
   background-color: #5c91b7;
-  color: #fff;
+  color: #b3f5ff;
 }
 
 .tipografia, .col h2, .col h1, .col-lg {

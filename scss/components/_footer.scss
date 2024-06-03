@@ -20,17 +20,17 @@ footer {
         }
         .volver-al-pie {
             font-family: "Yeseva One", serif;
-            color: #fff;
+            color: $color-blanco;
             list-style-type: none;
             text-decoration: none;
             &:hover {
-                color: #00057a;
+                color: $color-blue;
             }
         }
         .redes-sociales {
-            color: #fff;
+            color: $color-blanco;
             &:hover {
-                color: #00057a;
+                color: $color-blue;
             }
         }
     
