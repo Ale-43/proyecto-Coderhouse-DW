@@ -51,6 +51,10 @@ header div {
 nav {
   background-color: #2764ab;
 }
+nav .tituloprincipal {
+  color: #b3f5ff;
+  font-family: "yeseva one", sans-serif;
+}
 nav li {
   background-color: #2764ab;
   padding-top: 40px;
@@ -67,11 +71,6 @@ nav a {
 }
 nav a:hover {
   color: #00057a;
-}
-
-.tituloprincipal {
-  font-family: "Yeseva One", serif;
-  padding-left: 20px;
 }
 
 .form2 {

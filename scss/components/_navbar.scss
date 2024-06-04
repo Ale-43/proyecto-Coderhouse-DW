@@ -2,9 +2,14 @@ header {
     div {
         background-color: $color-de-fondo-nav;
     }
+    
 }
 nav {
     background-color: $color-de-fondo-nav;
+    .tituloprincipal {
+        color: $color-blanco;
+        font-family: "yeseva one", sans-serif;
+    }
     li {
         background-color: $color-de-fondo-nav;
         padding-top: 40px;
@@ -22,8 +27,4 @@ nav {
             color: $color-blue;
         }
     }
-}
-.tituloprincipal {
-    font-family: "Yeseva One", serif;
-    padding-left: 20px;
 }

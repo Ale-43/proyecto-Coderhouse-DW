@@ -3,6 +3,9 @@ html, body {
     color: $color-blanco;
   }
 
+   
+
+
 .tipografia {
   font-family: "Yeseva One", serif;
 }
@@ -18,7 +21,6 @@ html, body {
       @extend .tipografia;
     }
   }
-
 
 .container {
   @mixin imagenes($w,$h) {
@@ -69,6 +71,7 @@ html, body {
     }
   }
 }
+
 
 
 
