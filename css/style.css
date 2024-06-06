@@ -167,10 +167,12 @@ nav a:hover {
 .foto img {
   width: 600px;
   height: 350px;
-  transition: 2s;
+  transition: width 2s, height 2s;
 }
 .foto img:hover {
   padding: 20px;
+  width: 400px;
+  height: 400px;
 }
 @media (max-width: 610px) {
   .foto img {
