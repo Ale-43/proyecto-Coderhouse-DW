@@ -219,37 +219,10 @@ nav a:hover {
   background: #5c91b7;
 }
 
-.botonvermas {
+.container-xl {
+  padding-top: 63px;
   display: flex;
   justify-content: center;
-  padding-bottom: 96px;
-}
-.botonvermas .boton {
-  background-color: rgb(255, 255, 255);
-  transition: 1.5s;
-  width: 90px;
-  height: 40px;
-  border-radius: 40px;
-}
-.botonvermas .boton a {
-  text-decoration: none;
-  list-style: none;
-  padding-left: 10px;
-  padding-top: 30px;
-  color: #989898;
-  font-family: "Yeseva One", serif;
-}
-.botonvermas .boton:hover {
-  background-color: #00057a;
-  color: #b3f5ff;
-}
-
-.container-xl {
-  padding-left: 70px;
-  padding-top: 63px;
-  padding-bottom: 80px;
-  display: flex;
-  justify-content: space-between;
 }
 @media (max-width: 583px) {
   .container-xl {
@@ -284,6 +257,32 @@ nav a:hover {
 }
 .container-xl .disco-2 {
   padding-left: 21px;
+}
+
+.botonvermas {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 96px;
+  padding-top: 80px;
+}
+.botonvermas .boton {
+  background-color: rgb(255, 255, 255);
+  transition: 1.5s;
+  width: 90px;
+  height: 40px;
+  border-radius: 40px;
+}
+.botonvermas .boton a {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 30px;
+  color: #989898;
+  font-family: "Yeseva One", serif;
+}
+.botonvermas .boton:hover {
+  background-color: #00057a;
+  color: #b3f5ff;
 }
 
 .titulo-even {
@@ -463,6 +462,7 @@ nav a:hover {
 html, body {
   background-color: #5c91b7;
   color: #b3f5ff;
+  overflow-x: hidden;
 }
 
 .tipografia, .col h2, .col h1, .col-lg {
